@@ -68,7 +68,7 @@ a {
 
 
 
-/* BUTTONS Music*/
+/* BUTTONS blog*/
 .btn {
     padding: 1rem 1.5rem;
     background: white;
@@ -78,6 +78,26 @@ a {
 }
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    color: #fff;
+    background: var(--primaryTextColor);
+    text-decoration: dotted;
+}
+/* dark/light mode section */
+.dark-mode {
+    background-color: whitesmoke;
+    color: white;
+}
+.switch {
+    padding: 1rem 1.5rem;
+    background: white;
+    border: 1.5px solid var(--borderColor);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.switch:hover {
+    color: #fff;
+    background: var(--thirdBackgroundColor);
+    text-decoration: solid;
 }
 
 
@@ -138,13 +158,22 @@ nav ul li a {
     align-items: center;
     font-weight: 700;
     font-size: 2rem;
+    font-style: italic;
 }
 .logo-name a {
     color: var(--primaryTextColor);
+    cursor: default;
 }
 nav ul li {
     display: flex;
     align-items: center;
+}
+.logo-name a:hover {
+    color: gray;
+}
+nav ul li a:hover {
+    color: grey;
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -274,12 +303,19 @@ nav ul li {
     display: flex;
     gap: 1rem;
     margin: 1rem 0;
+    cursor: default;
 }
 .portfolio-tags div {
     font-size: 0.9rem;
     border: 1px solid var(--borderColor);
     padding: 0.4rem 1rem;
-    color: var(--secondaryTextColor);
+    color: var(--thirdBackgroundColor);
+}
+.portfolio-tags a {
+    color: black;
+}
+.portfolio-tags a:hover {
+    color: gray;
 }
 
 
@@ -328,10 +364,17 @@ nav ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1.5rem;
+    cursor: default;
 }
 .skills-right ul {
     line-height: 2rem;
     padding: 0 1rem;
+}
+.skills-list ul li {
+    color: #000;
+}
+.skills-list ul li:hover {
+    color: #3e3f40;
 }
 
 
@@ -353,18 +396,19 @@ nav ul li {
     width: 100%;
     padding: 0.75rem 1.3rem;
     font-family: "Roboto" sans-serif;
-    background: whitesmoke;
-    border: 1px solid var(--borderColor);
+    background: rgb(220, 220, 220);
+    border: 1px solid whitesmoke;
     border-radius: 3px;
     resize: none;
 }
 .contact-form input::placeholder, .contact-form textarea::placeholder {
-    color: 9d9fa1;
+    color: #9d9fa1;
 }
 .contact-form input::focus,
 .contact-form textarea::focus {
     outline: none;
-    border: 1px solid #7d7d7d;
+    /* border: 1px solid #7d7d7d; */
+    border: 1px solid var(--secondaryTextColor);
 }
 /* button send */
 .btn-send {
@@ -394,7 +438,7 @@ nav ul li {
     background: whitesmoke;
     width: 53px;
     height: 53px;
-    border-radius: 9px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,7 +471,17 @@ footer {
 .footer-icons a:hover svg {
     fill: black;
 }
-    
+/* paragraf */
 p {
     color: black;
+    cursor: default;
+}
+.go-to-top svg {
+    color: royalblue;
+}
+.go-to-top svg:hover {
+    color: #000;
+}
+.go-to-top p {
+    color: royalblue;
 }

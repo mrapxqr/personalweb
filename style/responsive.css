@@ -14,9 +14,10 @@
     nav ul li a {
         transition: all 0.2s ease-in-out;
     }
+
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 995px) {
 
     /* burger */
     .burger {
