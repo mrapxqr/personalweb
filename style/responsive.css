@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1115px) {
     p {
         font-size: 0.9rem;
         line-height: 1.8rem;
@@ -137,4 +137,22 @@
     .pre-title {
         font-size: 0.7rem;
     }
+
+    .contact-left {
+        margin-right: auto;
+    }
+
+    
+    .skills-right p {
+        font-size: 0.7rem;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    
+    .contact-right, .contact-items-detail p {
+        font-size: medium;
+        
+    }
+
 }

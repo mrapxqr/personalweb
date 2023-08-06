@@ -71,15 +71,16 @@ a {
 /* BUTTONS blog*/
 .btn {
     padding: 1rem 1.5rem;
-    background: white;
+    background: #000;
+    color: #fff;
     border: 1.5px solid var(--borderColor);
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    color: #fff;
-    background: var(--primaryTextColor);
+    color: #000;
+    background: #fff;
     text-decoration: dotted;
 }
 /* dark/light mode section */
@@ -87,16 +88,18 @@ a {
     background-color: whitesmoke;
     color: white;
 }
+/* button swicth */
 .switch {
     padding: 1rem 1.5rem;
-    background: white;
+    background: #000;
     border: 1.5px solid var(--borderColor);
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    color: #fff;
 }
 .switch:hover {
-    color: #fff;
-    background: var(--thirdBackgroundColor);
+    color: #000;
+    background: #fff;
     text-decoration: solid;
 }
 
@@ -482,6 +485,6 @@ p {
 .go-to-top svg:hover {
     color: #000;
 }
-.go-to-top p {
+.go-to-top-parent p {
     color: royalblue;
 }
