@@ -71,8 +71,8 @@ a {
 /* BUTTONS blog*/
 .btn {
     padding: 1rem 1.5rem;
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     border: 1.5px solid var(--borderColor);
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -86,21 +86,22 @@ a {
 /* dark/light mode section */
 .dark-mode {
     background-color: whitesmoke;
-    color: white;
+    color: #fff;
 }
 /* button swicth */
 .switch {
     padding: 1rem 1.5rem;
-    background: #000;
+    background: #fff;
     border: 1.5px solid var(--borderColor);
     cursor: pointer;
     transition: 0.2s ease-in-out;
-    color: #fff;
+    color: #000;
 }
 .switch:hover {
     color: #000;
     background: #fff;
     text-decoration: solid;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
 
@@ -173,6 +174,7 @@ nav ul li {
 }
 .logo-name a:hover {
     color: gray;
+    cursor: default;
 }
 nav ul li a:hover {
     color: grey;
@@ -274,7 +276,7 @@ nav ul li a:hover {
 }
 /* cover-img */
 .portfolio-cover {
-    height: 250px;
+    height: 350px;
 }
 .portfolio-cover img {
     width: 100%;
