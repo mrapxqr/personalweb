@@ -363,6 +363,14 @@ nav ul li a:hover {
     display: flex;
     gap: 1rem;
 }
+.education-title a {
+    color: #656d72;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.education-title a:hover {
+    color: #468fd9;
+}
 .education-title:hover {
     cursor: default;
 }
@@ -518,15 +526,20 @@ footer {
     width: 100px;
     height: 100px;
 }
+.col-md-6 p a:hover {
+    color: #7e74f1;
+}
 .col-md-6:last-child p {
     text-align: center;
     text-decoration: underline;
     font-size: medium;
+    color: #468fd9;
 }
 @media (max-width: 767.98px) {
     .col-md-6:last-child p {
-        margin:5px 0;
-        text-align: center
+        margin: 5px 0;
+        text-align: center;
+        font-size: small ;
     }
 }
 /* paragraf */
