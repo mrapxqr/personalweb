@@ -518,6 +518,17 @@ footer {
     width: 100px;
     height: 100px;
 }
+.col-md-6:last-child p {
+    text-align: center;
+    text-decoration: underline;
+    font-size: medium;
+}
+@media (max-width: 767.98px) {
+    .col-md-6:last-child p {
+        margin:5px 0;
+        text-align: center
+    }
+}
 /* paragraf */
 p {
     color: black;
