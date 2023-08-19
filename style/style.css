@@ -110,6 +110,9 @@ a {
     margin: 1rem 0 4rem;
     font-size: 2rem;
 }
+.section-title:hover {
+    cursor: default;
+}
 .pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -129,6 +132,10 @@ a {
     display: block;
     left: 0;
     top: 50%;
+}
+.pre-title:hover {
+    cursor: default;
+    color: #000;
 }
 
 
@@ -218,6 +225,10 @@ nav ul li a:hover {
     /* color: var(--primaryIconColor); */
     color: gray;
 }
+.hero-name:hover {
+    cursor: default;
+    color: #000;
+}
 /* hero right img */
 .hero-right img {
     width: 70%;
@@ -240,6 +251,9 @@ nav ul li a:hover {
 .about-title {
     text-align: center;
 }
+.about-title:hover {
+    cursor: default;
+}
 .about {
     padding: 3rem 2rem;
     text-align: center;
@@ -251,6 +265,10 @@ nav ul li a:hover {
     font-weight: 500;
     font-size: 1.05rem;
 }
+.about h4:hover {
+    cursor: default;
+    color: #000;
+}
 /* icon */
 .about-icon {
     background: whitesmoke;
@@ -258,6 +276,9 @@ nav ul li a:hover {
     margin: 0 auto;
     padding: 1rem 1.3rem;
     border-radius: 0.5rem;
+}
+.about-icon:hover {
+    background-color: #000;
 }
 .about-icon svg {
     fill: gray;
@@ -297,6 +318,9 @@ nav ul li a:hover {
 .portfolio h4 {
     font-weight: 500;
     font-size: 1.05rem;
+}
+.portfolio-title h4:hover {
+    cursor: default;
 }
 .portfolio-title a svg:hover {
     fill: var(--primaryIconColor);
@@ -339,6 +363,12 @@ nav ul li a:hover {
     display: flex;
     gap: 1rem;
 }
+.education-title:hover {
+    cursor: default;
+}
+.kejuruan:hover {
+    cursor: default;
+}
 .education .line {
     padding: 0 0.7rem;
 }
@@ -353,6 +383,9 @@ nav ul li a:hover {
 }
 .education-years {
     margin-bottom: 3rem;
+}
+.education-years:hover {
+    cursor: default;
 }
 /* titik bundar samping kiri edukasi */
 .education .line div::before {
@@ -451,10 +484,15 @@ nav ul li a:hover {
 .contact-items-icon svg {
     fill: gray;
 }
+.contact-items-icon:hover {
+    background-color: #000;
+}
 .contact-items-detail h4 {
     margin-bottom: 0.6rem;
 }
-
+.contact-items-detail h4:hover {
+    cursor: default;
+}
 
 
 
@@ -475,6 +513,10 @@ footer {
 }
 .footer-icons a:hover svg {
     fill: black;
+}
+.cr-img img {
+    width: 100px;
+    height: 100px;
 }
 /* paragraf */
 p {
