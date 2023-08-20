@@ -125,12 +125,6 @@
     footer {
         padding: 3rem 0;
     }
-    .cpra {
-        font-size: smaller;
-        padding: 3rem 0;
-
-    }
-
 }
 
 @media screen and (max-width: 640px) {
