@@ -526,6 +526,14 @@ footer {
     width: 100px;
     height: 100px;
 }
+.cpra {
+    font-weight: bold;
+    font-style: italic;
+    color: #232e35;
+}
+.col-md-6 p a {
+    color: #5d51e8;
+}
 .col-md-6 p a:hover {
     color: #7e74f1;
 }
