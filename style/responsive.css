@@ -125,6 +125,14 @@
     footer {
         padding: 3rem 0;
     }
+    .cpra {
+        font-size: 1.0rem;
+        margin-bottom: 0.5rem;
+    }
+    .cr-img img {
+        padding-top: 5px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -151,7 +159,12 @@
     
     .contact-right, .contact-items-detail p {
         font-size: medium;
-        
+    }
+
+    .cpra {
+        font-size: 1.0rem;
+        margin-bottom: 0.5rem;
+
     }
 
 }
