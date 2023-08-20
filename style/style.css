@@ -527,8 +527,8 @@ footer {
     height: 100px;
 }
 .cpra {
-    font-weight: bold;
     font-style: italic;
+    font-weight: bold;
     color: #232e35;
 }
 .col-md-6 p a {
