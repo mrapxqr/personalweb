@@ -85,8 +85,8 @@ a {
 }
 /* dark/light mode section */
 .dark-mode {
-    background-color: whitesmoke;
-    color: #fff;
+    background-color: #f0edea;
+    color: #000;
 }
 /* button swicth */
 .switch {
