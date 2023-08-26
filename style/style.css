@@ -379,9 +379,6 @@ nav ul li a:hover {
 .education-title:hover {
     cursor: default;
 }
-.kejuruan {
-    font-weight: bold;
-}
 .kejuruan:hover {
     cursor: default;
     color: #000;
@@ -397,7 +394,6 @@ nav ul li a:hover {
 }
 .education-info p {
     margin: 0.6rem 0 1.4rem;
-    font-weight: bold;
 }
 .education-years {
     margin-bottom: 3rem;
