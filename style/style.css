@@ -372,12 +372,16 @@ nav ul li a:hover {
     color: #656d72;
     font-weight: bold;
     text-decoration: underline;
+    font-size: medium;
 }
 .education-title a:hover {
     color: #468fd9;
 }
 .education-title:hover {
     cursor: default;
+}
+.kejuruan {
+    font-weight: bold;
 }
 .kejuruan:hover {
     cursor: default;
