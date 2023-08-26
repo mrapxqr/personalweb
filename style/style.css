@@ -237,6 +237,10 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
 }
+.garis-slas {
+    color: #9d9fa1;
+    font-weight: bold;
+}
 
 
 
@@ -340,10 +344,11 @@ nav ul li a:hover {
     padding: 0.4rem 1rem;
     color: var(--thirdBackgroundColor);
 }
-.portfolio-tags a {
+.portfolio-tags {
     color: black;
+    font-weight: bold;
 }
-.portfolio-tags a:hover {
+.portfolio-tags:hover {
     color: gray;
 }
 
@@ -374,8 +379,12 @@ nav ul li a:hover {
 .education-title:hover {
     cursor: default;
 }
+.kejuruan {
+    font-weight: bold;
+}
 .kejuruan:hover {
     cursor: default;
+    color: #000;
 }
 .education .line {
     padding: 0 0.7rem;
@@ -388,9 +397,11 @@ nav ul li a:hover {
 }
 .education-info p {
     margin: 0.6rem 0 1.4rem;
+    font-weight: bold;
 }
 .education-years {
     margin-bottom: 3rem;
+    font-weight: bold;
 }
 .education-years:hover {
     cursor: default;
