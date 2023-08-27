@@ -118,14 +118,15 @@ a {
     letter-spacing: 0.5rem;
     color: var(--secondaryTextColor);
     position: relative;
-    padding-left: 40px;
+    padding-left: 30px;
     width: fit-content;
     font-weight: 400;
     font-size: 0.9rem;
 }
+/* garis kiri samping nama */
 .pre-title::before {
     content: "";
-    width: 30px;
+    width: 20px;
     height: 1px;
     background: var(--lineColor);
     position: absolute;
@@ -380,9 +381,6 @@ nav ul li a:hover {
 .education-title:hover {
     cursor: default;
 }
-.kejuruan {
-    font-weight: bold;
-}
 .kejuruan:hover {
     cursor: default;
     color: #000;
@@ -539,8 +537,13 @@ footer {
 }
 .cpra {
     font-style: italic;
-    font-weight: bold;
+    font-size: 15px;
     color: #232e35;
+}
+.ketentuan {
+    font-size: small;
+    text-align: center;
+    font-style: italic;
 }
 .col-md-6 p a {
     color: #5d51e8;
@@ -559,6 +562,9 @@ footer {
         margin: 5px 0;
         text-align: center;
         font-size: small ;
+    }
+    .ketentuan {
+        font-size: small;
     }
 }
 /* paragraf */
