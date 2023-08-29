@@ -87,7 +87,7 @@
     }
 
     .logo-name {
-        text-shadow: 1px 1px #2A002A;
+        text-shadow: 3px 2px #2A002A;
     }
 
 
@@ -136,9 +136,8 @@
     }
 
     .cpra {
-        font-size: 1.0rem;
+        font-size: 0.3rem;
         margin-bottom: 0.5rem;
-        font-size: 10px;
     }
 
     .cr-img img {
