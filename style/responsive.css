@@ -11,6 +11,7 @@
     .skills-right ul li {
         font-size: 0.9rem;
     }
+
     nav ul li a {
         transition: all 0.2s ease-in-out;
     }
@@ -47,6 +48,8 @@
     .section-title {
         font-size: 1.6rem;
         margin: 0.6rem 0 2.5rem;
+        text-shadow: 1px 1px #2A002A;
+
     }
 
     .pre-title {
@@ -78,6 +81,7 @@
     .nav-active {
         transform: translateX(0);
     }
+
     .logo-name a {
         font-size: 1.5rem;
     }
@@ -125,10 +129,12 @@
     footer {
         padding: 3rem 0;
     }
+
     .cpra {
         font-size: 1.0rem;
         margin-bottom: 0.5rem;
     }
+
     .cr-img img {
         padding-top: 5px;
         margin-top: 5px;
@@ -136,11 +142,12 @@
 }
 
 @media screen and (max-width: 640px) {
-    
+
     /* section title */
     .section-title {
         font-size: 1.3rem;
     }
+
     .pre-title {
         font-size: 0.7rem;
     }
@@ -149,15 +156,16 @@
         margin-right: auto;
     }
 
-    
+
     .skills-right p {
         font-size: 0.7rem;
         text-align: left;
         flex-direction: column;
     }
 
-    
-    .contact-right, .contact-items-detail p {
+
+    .contact-right,
+    .contact-items-detail p {
         font-size: medium;
     }
 
