@@ -122,6 +122,10 @@
         text-shadow: 1px 1px #2A002A;
     }
 
+    .kejuruan p {
+        font-size: small;
+    }
+
 
 
     /* skills section */
@@ -136,7 +140,7 @@
     }
 
     .cpra {
-        font-size: 0.3rem;
+        font-size: 10px;
         margin-bottom: 0.5rem;
     }
 
@@ -167,6 +171,14 @@
         text-align: left;
         flex-direction: column;
     }
+
+    .hero-name {
+        font-size: 1.1rem;
+    }
+    .text-1 {
+        font-size: small;
+    }
+
 
 
     .contact-right,
