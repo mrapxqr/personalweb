@@ -252,12 +252,15 @@ nav ul li a:hover {
     color: #9d9fa1;
     font-weight: bold;
 }
+.garis-slas:hover {
+    color: #468fd9;
+}
 
 
 
 /* about section */
 #about {
-    background-color: whitesmoke;
+    background-color: rgb(255, 210, 210);
     padding: var(--sectionPadding);
 }
 .about .pre-title {
@@ -352,10 +355,10 @@ nav ul li a:hover {
     cursor: default;
 }
 .portfolio-tags div {
-    font-size: 0.9rem;
-    border: 1px solid var(--borderColor);
-    padding: 0.4rem 1rem;
-    color: var(--thirdBackgroundColor);
+    font-size: 0.8rem;
+    border: 1px solid #9d9fa1;
+    padding: 0.5rem 1rem;
+    color: #000;
 }
 .portfolio-tags {
     color: black;
@@ -370,7 +373,7 @@ nav ul li a:hover {
 /* skills dan edukasi */
 #skills {
     padding: var(--sectionPadding);
-    background: whitesmoke;
+    background-color: rgb(255, 210, 210);
 }
 .skills-grid {
     display: grid;
@@ -521,6 +524,10 @@ nav ul li a:hover {
 }
 .contact-items-detail h4:hover {
     cursor: default;
+    color: #000;
+}
+.contact-items-detail p {
+    font-size: small;
 }
 
 
@@ -563,6 +570,9 @@ footer {
     font-size: small;
     text-align: center;
     font-style: italic;
+}
+.ketentuan a:hover {
+    color: #000;
 }
 .col-md-6 p a {
     color: #5d51e8;
